@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Search, ShoppingCart, MapPin, Bell, Store } from "lucide-react";
 
-export default function GoLocalUIPrototype() {
+export default function GoLocal() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [loginData, setLoginData] = useState({ username: "", password: "" });
   const [showLocationDialog, setShowLocationDialog] = useState(false);
